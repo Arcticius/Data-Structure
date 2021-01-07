@@ -1,0 +1,27 @@
+﻿  Homework.cpp
+D:\DS\Homework\Homework\Homework.cpp(42,30): error C2440: “return”: 无法从“const wchar_t [3]”转换为“TCHAR *”
+D:\DS\Homework\Homework\Homework.cpp(42,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\DS\Homework\Homework\Homework.cpp(43,37): error C2440: “return”: 无法从“const wchar_t [10]”转换为“TCHAR *”
+D:\DS\Homework\Homework\Homework.cpp(43,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\DS\Homework\Homework\Homework.cpp(44,37): error C2440: “return”: 无法从“const wchar_t [10]”转换为“TCHAR *”
+D:\DS\Homework\Homework\Homework.cpp(44,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\DS\Homework\Homework\Homework.cpp(45,38): error C2440: “return”: 无法从“const wchar_t [10]”转换为“TCHAR *”
+D:\DS\Homework\Homework\Homework.cpp(45,17): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\DS\Homework\Homework\Homework.cpp(54,39): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 2 从“const char [16]”转换为“LPCWSTR”
+D:\DS\Homework\Homework\Homework.cpp(54,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(333,1): message : 参见“wsprintfW”的声明
+D:\DS\Homework\Homework\Homework.cpp(56,85): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 2 从“const char [47]”转换为“LPCWSTR”
+D:\DS\Homework\Homework\Homework.cpp(56,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(333,1): message : 参见“wsprintfW”的声明
+D:\DS\Homework\Homework\Homework.cpp(58,38): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+D:\DS\Homework\Homework\Homework.cpp(58,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(333,1): message : 参见“wsprintfW”的声明
+D:\DS\Homework\Homework\Homework.cpp(60,36): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+D:\DS\Homework\Homework\Homework.cpp(60,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(333,1): message : 参见“wsprintfW”的声明
+D:\DS\Homework\Homework\Homework.cpp(62,42): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 2 从“const char [19]”转换为“LPCWSTR”
+D:\DS\Homework\Homework\Homework.cpp(62,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(333,1): message : 参见“wsprintfW”的声明
+D:\DS\Homework\Homework\Homework.cpp(82,95): error C2664: “HFONT CreateFontA(int,int,int,int,int,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,LPCSTR)”: 无法将参数 14 从“TCHAR *”转换为“LPCSTR”
+D:\DS\Homework\Homework\Homework.cpp(82,83): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\wingdi.h(3779,26): message : 参见“CreateFontA”的声明
